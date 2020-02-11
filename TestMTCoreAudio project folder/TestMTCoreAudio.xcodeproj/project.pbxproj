@@ -3,19 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D57783223F2E62100B8CA44 /* MTCoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57782B23F2E5CB00B8CA44 /* MTCoreAudio.framework */; };
+		3D57783923F2E71000B8CA44 /* MTCoreAudio.framework in Copy Files (1 item) */ = {isa = PBXBuildFile; fileRef = 3D57782B23F2E5CB00B8CA44 /* MTCoreAudio.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4CA19B550CDE5C3300D74B58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA19B520CDE5C3300D74B58 /* main.m */; };
 		4CA19B560CDE5C3300D74B58 /* TestDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CA19B530CDE5C3300D74B58 /* TestDelegate.h */; };
 		4CA19B570CDE5C3300D74B58 /* TestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA19B540CDE5C3300D74B58 /* TestDelegate.m */; };
-		4CA19B590CDE5C4600D74B58 /* MTCoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA19B580CDE5C4600D74B58 /* MTCoreAudio.framework */; };
 		4CA19B6F0CDE5FE500D74B58 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA19B6E0CDE5FE500D74B58 /* CoreAudio.framework */; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3D57782A23F2E5CB00B8CA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D57782623F2E5CB00B8CA44 /* MTCoreAudio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C6CB404054DF62C0017AA37;
+			remoteInfo = MTCoreAudio;
+		};
+		3D57782E23F2E61C00B8CA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D57782623F2E5CB00B8CA44 /* MTCoreAudio.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6CB3E0054DF62C0017AA37;
+			remoteInfo = MTCoreAudio;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		3D57783823F2E70300B8CA44 /* Copy Files (1 item) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				3D57783923F2E71000B8CA44 /* MTCoreAudio.framework in Copy Files (1 item) */,
+			);
+			name = "Copy Files (1 item)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 8;
@@ -30,10 +59,10 @@
 
 /* Begin PBXFileReference section */
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3D57782623F2E5CB00B8CA44 /* MTCoreAudio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MTCoreAudio.xcodeproj; path = "../MTCoreAudio project folder/MTCoreAudio.xcodeproj"; sourceTree = "<group>"; };
 		4CA19B520CDE5C3300D74B58 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CA19B530CDE5C3300D74B58 /* TestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDelegate.h; sourceTree = "<group>"; };
 		4CA19B540CDE5C3300D74B58 /* TestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDelegate.m; sourceTree = "<group>"; };
-		4CA19B580CDE5C4600D74B58 /* MTCoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MTCoreAudio.framework; path = ../MTCoreAudio.framework; sourceTree = SOURCE_ROOT; };
 		4CA19B6E0CDE5FE500D74B58 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
 		8DD76FA10486AA7600D96B5E /* TestMTCoreAudio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestMTCoreAudio; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -43,8 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D57783223F2E62100B8CA44 /* MTCoreAudio.framework in Frameworks */,
 				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
-				4CA19B590CDE5C4600D74B58 /* MTCoreAudio.framework in Frameworks */,
 				4CA19B6F0CDE5FE500D74B58 /* CoreAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,6 +88,7 @@
 				C6859EA2029092E104C91782 /* Documentation */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
+				3D57783123F2E62100B8CA44 /* Frameworks */,
 			);
 			name = TestMTCoreAudio;
 			sourceTree = "<group>";
@@ -76,8 +106,8 @@
 		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				3D57782623F2E5CB00B8CA44 /* MTCoreAudio.xcodeproj */,
 				4CA19B6E0CDE5FE500D74B58 /* CoreAudio.framework */,
-				4CA19B580CDE5C4600D74B58 /* MTCoreAudio.framework */,
 				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
 			);
 			name = "External Frameworks and Libraries";
@@ -89,6 +119,21 @@
 				8DD76FA10486AA7600D96B5E /* TestMTCoreAudio */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3D57782723F2E5CB00B8CA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D57782B23F2E5CB00B8CA44 /* MTCoreAudio.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D57783123F2E62100B8CA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C6859EA2029092E104C91782 /* Documentation */ = {
@@ -108,10 +153,12 @@
 				8DD76F990486AA7600D96B5E /* Sources */,
 				8DD76F9B0486AA7600D96B5E /* Frameworks */,
 				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+				3D57783823F2E70300B8CA44 /* Copy Files (1 item) */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3D57782F23F2E61C00B8CA44 /* PBXTargetDependency */,
 			);
 			name = TestMTCoreAudio;
 			productInstallPath = "$(HOME)/bin";
@@ -124,15 +171,41 @@
 /* Begin PBXProject section */
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+			};
 			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "TestMTCoreAudio" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* TestMTCoreAudio */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3D57782723F2E5CB00B8CA44 /* Products */;
+					ProjectRef = 3D57782623F2E5CB00B8CA44 /* MTCoreAudio.xcodeproj */;
+				},
+			);
+			projectRoot = "";
 			targets = (
 				8DD76F960486AA7600D96B5E /* TestMTCoreAudio */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3D57782B23F2E5CB00B8CA44 /* MTCoreAudio.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MTCoreAudio.framework;
+			remoteRef = 3D57782A23F2E5CB00B8CA44 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DD76F990486AA7600D96B5E /* Sources */ = {
@@ -146,81 +219,118 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3D57782F23F2E61C00B8CA44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTCoreAudio;
+			targetProxy = 3D57782E23F2E61C00B8CA44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		1DEB927508733DD40010E9CD /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
 				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/..\"";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TestMTCoreAudio_Prefix.pch;
 				INSTALL_PATH = "$(HOME)/bin";
 				PRODUCT_NAME = TestMTCoreAudio;
-				ZERO_LINK = NO;
 			};
 			name = Development;
 		};
 		1DEB927608733DD40010E9CD /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
 				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/..\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TestMTCoreAudio_Prefix.pch;
 				INSTALL_PATH = "$(HOME)/bin";
 				PRODUCT_NAME = TestMTCoreAudio;
-				ZERO_LINK = NO;
 			};
 			name = Deployment;
 		};
 		1DEB927908733DD40010E9CD /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Development;
 		};
 		1DEB927A08733DD40010E9CD /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Deployment;
 		};

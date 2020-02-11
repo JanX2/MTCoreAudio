@@ -307,7 +307,7 @@ static OSStatus _FillComplexBufferProc (
 		for ( chan = 0; chan < outputChannels; chan++ )
 		{
 			samples = outputBufferList->mBuffers[chan].mData;
-			vsmul ( samples, 1, &gainArray[chan], samples, 1, framesRead );
+			vDSP_vsmul ( samples, 1, &gainArray[chan], samples, 1, framesRead );
 		}
 		MTAudioBufferListCopy ( outputBufferList, 0, dst, offset, framesRead );
 	}

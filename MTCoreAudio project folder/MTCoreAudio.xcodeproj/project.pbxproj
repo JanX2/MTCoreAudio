@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D09DE7523F2EE1F00358A3F /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEBB767201E849EC00543B42 /* License.txt */; };
+		3D57783C23F2E72D00B8CA44 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57783B23F2E72D00B8CA44 /* Accelerate.framework */; };
 		4C07E0E3061E55C60043D066 /* MTAudioBufferListUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C07E0E1061E55C60043D066 /* MTAudioBufferListUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C07E0E4061E55C60043D066 /* MTAudioBufferListUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C07E0E2061E55C60043D066 /* MTAudioBufferListUtils.m */; };
-		4C0A94980620BBEA00B0FC0C /* MTBuffer.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C6747B706154BF70040D03A /* MTBuffer.html */; };
-		4C0A94990620BBEA00B0FC0C /* MTByteBuffer.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C6747D706156A010040D03A /* MTByteBuffer.html */; };
-		4C0A949A0620BBEA00B0FC0C /* MTAudioBuffer.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CC97F7E061D1D6200AA0B85 /* MTAudioBuffer.html */; };
-		4C0A949B0620BBEA00B0FC0C /* MTAudioBufferListUtils.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CC97FA2061D667900AA0B85 /* MTAudioBufferListUtils.html */; };
+		4C0A94980620BBEA00B0FC0C /* MTBuffer.html in Copy Documentation Files */ = {isa = PBXBuildFile; fileRef = 4C6747B706154BF70040D03A /* MTBuffer.html */; };
+		4C0A94990620BBEA00B0FC0C /* MTByteBuffer.html in Copy Documentation Files */ = {isa = PBXBuildFile; fileRef = 4C6747D706156A010040D03A /* MTByteBuffer.html */; };
+		4C0A949A0620BBEA00B0FC0C /* MTAudioBuffer.html in Copy Documentation Files */ = {isa = PBXBuildFile; fileRef = 4CC97F7E061D1D6200AA0B85 /* MTAudioBuffer.html */; };
+		4C0A949B0620BBEA00B0FC0C /* MTAudioBufferListUtils.html in Copy Documentation Files */ = {isa = PBXBuildFile; fileRef = 4CC97FA2061D667900AA0B85 /* MTAudioBufferListUtils.html */; };
 		4C384F60060FE9B200FE1E9F /* MTBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C384F5E060FE9B200FE1E9F /* MTBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C384F61060FE9B200FE1E9F /* MTBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C384F5F060FE9B200FE1E9F /* MTBuffer.m */; };
 		4C48BB570730DCE600CDEC30 /* MTDecibelTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C48BB550730DCE600CDEC30 /* MTDecibelTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C48BB580730DCE600CDEC30 /* MTDecibelTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48BB560730DCE600CDEC30 /* MTDecibelTransformer.m */; };
-		4C48BD4A073C7CE000CDEC30 /* ValueTransformers.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C48BC9E073C6A2F00CDEC30 /* ValueTransformers.html */; };
+		4C48BD4A073C7CE000CDEC30 /* ValueTransformers.html in Copy Documentation Files */ = {isa = PBXBuildFile; fileRef = 4C48BC9E073C6A2F00CDEC30 /* ValueTransformers.html */; };
 		4C6CB3E2054DF62C0017AA37 /* MTCoreAudioDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = EE975AB201D4857C00543B42 /* MTCoreAudioDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C6CB3E3054DF62C0017AA37 /* MTCoreAudioStreamDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = EE975AB401D4857C00543B42 /* MTCoreAudioStreamDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C6CB3E4054DF62C0017AA37 /* MTCoreAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = EE975AB601D4857C00543B42 /* MTCoreAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,46 +37,35 @@
 		4C6CB3F3054DF62C0017AA37 /* MTCoreAudioIOProcMux.m in Sources */ = {isa = PBXBuildFile; fileRef = EE63C733034BBB4500543B42 /* MTCoreAudioIOProcMux.m */; };
 		4C6CB3F6054DF62C0017AA37 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE975ABC01D4864100543B42 /* CoreAudio.framework */; };
 		4C6CB3F7054DF62C0017AA37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE975AC701D489C900543B42 /* Foundation.framework */; };
-		4C6CB3FB054DF62C0017AA37 /* index.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = EEF187F901E7E27100543B42 /* index.html */; };
-		4C6CB3FC054DF62C0017AA37 /* MTCoreAudioConstantsAndTypes.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = EEF187FA01E7E27100543B42 /* MTCoreAudioConstantsAndTypes.html */; };
-		4C6CB3FD054DF62C0017AA37 /* MTCoreAudioDevice.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = EEF187FB01E7E27100543B42 /* MTCoreAudioDevice.html */; };
-		4C6CB3FE054DF62C0017AA37 /* MTCoreAudioStream.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = EEF187FC01E7E27100543B42 /* MTCoreAudioStream.html */; };
-		4C6CB3FF054DF62C0017AA37 /* MTCoreAudioStreamDescription.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = EEF187FD01E7E27100543B42 /* MTCoreAudioStreamDescription.html */; };
-		4C6CB401054DF62C0017AA37 /* License.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = EEBB767201E849EC00543B42 /* License.txt */; };
+		4C6CB3FB054DF62C0017AA37 /* index.html in Copy Documentation Files */ = {isa = PBXBuildFile; fileRef = EEF187F901E7E27100543B42 /* index.html */; };
+		4C6CB3FC054DF62C0017AA37 /* MTCoreAudioConstantsAndTypes.html in Copy Documentation Files */ = {isa = PBXBuildFile; fileRef = EEF187FA01E7E27100543B42 /* MTCoreAudioConstantsAndTypes.html */; };
+		4C6CB3FD054DF62C0017AA37 /* MTCoreAudioDevice.html in Copy Documentation Files */ = {isa = PBXBuildFile; fileRef = EEF187FB01E7E27100543B42 /* MTCoreAudioDevice.html */; };
+		4C6CB3FE054DF62C0017AA37 /* MTCoreAudioStream.html in Copy Documentation Files */ = {isa = PBXBuildFile; fileRef = EEF187FC01E7E27100543B42 /* MTCoreAudioStream.html */; };
+		4C6CB3FF054DF62C0017AA37 /* MTCoreAudioStreamDescription.html in Copy Documentation Files */ = {isa = PBXBuildFile; fileRef = EEF187FD01E7E27100543B42 /* MTCoreAudioStreamDescription.html */; };
 		4CB5AFA3056D9DEE00054BE0 /* StreamDescription.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CB5AFA1056D9DEE00054BE0 /* StreamDescription.strings */; };
 		4CFE9C0E061B98BC002AE79E /* MTAudioBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFE9C0C061B98BC002AE79E /* MTAudioBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CFE9C0F061B98BC002AE79E /* MTAudioBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE9C0D061B98BC002AE79E /* MTAudioBuffer.m */; };
-		5A5AA2D216175887007693E9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5AA2D116175887007693E9 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4C6CB3FA054DF62C0017AA37 /* CopyFiles */ = {
+		4C6CB3FA054DF62C0017AA37 /* Copy Documentation Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = Documentation;
-			dstSubfolderSpec = 1;
+			dstSubfolderSpec = 7;
 			files = (
-				4C48BD4A073C7CE000CDEC30 /* ValueTransformers.html in CopyFiles */,
-				4C6CB3FB054DF62C0017AA37 /* index.html in CopyFiles */,
-				4C6CB3FC054DF62C0017AA37 /* MTCoreAudioConstantsAndTypes.html in CopyFiles */,
-				4C6CB3FD054DF62C0017AA37 /* MTCoreAudioDevice.html in CopyFiles */,
-				4C6CB3FE054DF62C0017AA37 /* MTCoreAudioStream.html in CopyFiles */,
-				4C6CB3FF054DF62C0017AA37 /* MTCoreAudioStreamDescription.html in CopyFiles */,
-				4C0A94980620BBEA00B0FC0C /* MTBuffer.html in CopyFiles */,
-				4C0A94990620BBEA00B0FC0C /* MTByteBuffer.html in CopyFiles */,
-				4C0A949A0620BBEA00B0FC0C /* MTAudioBuffer.html in CopyFiles */,
-				4C0A949B0620BBEA00B0FC0C /* MTAudioBufferListUtils.html in CopyFiles */,
+				4C48BD4A073C7CE000CDEC30 /* ValueTransformers.html in Copy Documentation Files */,
+				4C6CB3FB054DF62C0017AA37 /* index.html in Copy Documentation Files */,
+				4C6CB3FC054DF62C0017AA37 /* MTCoreAudioConstantsAndTypes.html in Copy Documentation Files */,
+				4C6CB3FD054DF62C0017AA37 /* MTCoreAudioDevice.html in Copy Documentation Files */,
+				4C6CB3FE054DF62C0017AA37 /* MTCoreAudioStream.html in Copy Documentation Files */,
+				4C6CB3FF054DF62C0017AA37 /* MTCoreAudioStreamDescription.html in Copy Documentation Files */,
+				4C0A94980620BBEA00B0FC0C /* MTBuffer.html in Copy Documentation Files */,
+				4C0A94990620BBEA00B0FC0C /* MTByteBuffer.html in Copy Documentation Files */,
+				4C0A949A0620BBEA00B0FC0C /* MTAudioBuffer.html in Copy Documentation Files */,
+				4C0A949B0620BBEA00B0FC0C /* MTAudioBufferListUtils.html in Copy Documentation Files */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C6CB400054DF62C0017AA37 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 1;
-			files = (
-				4C6CB401054DF62C0017AA37 /* License.txt in CopyFiles */,
-			);
+			name = "Copy Documentation Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -82,7 +73,9 @@
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D57781B23F2E48200B8CA44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D57781C23F2E48200B8CA44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/StreamDescription.strings; sourceTree = "<group>"; };
+		3D57783B23F2E72D00B8CA44 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		4C07E0E1061E55C60043D066 /* MTAudioBufferListUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAudioBufferListUtils.h; sourceTree = "<group>"; };
 		4C07E0E2061E55C60043D066 /* MTAudioBufferListUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAudioBufferListUtils.m; sourceTree = "<group>"; };
 		4C384F5E060FE9B200FE1E9F /* MTBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBuffer.h; sourceTree = "<group>"; };
@@ -95,7 +88,6 @@
 		4C6747B706154BF70040D03A /* MTBuffer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; name = MTBuffer.html; path = Documentation/MTBuffer.html; sourceTree = "<group>"; };
 		4C6747D706156A010040D03A /* MTByteBuffer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; name = MTByteBuffer.html; path = Documentation/MTByteBuffer.html; sourceTree = "<group>"; };
 		4C6CB404054DF62C0017AA37 /* MTCoreAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTCoreAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CB5AF9C056D9DE300054BE0 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/StreamDescription.strings; sourceTree = "<group>"; };
 		4CC97F7E061D1D6200AA0B85 /* MTAudioBuffer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; name = MTAudioBuffer.html; path = Documentation/MTAudioBuffer.html; sourceTree = "<group>"; };
 		4CC97FA2061D667900AA0B85 /* MTAudioBufferListUtils.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; name = MTAudioBufferListUtils.html; path = Documentation/MTAudioBufferListUtils.html; sourceTree = "<group>"; };
 		4CFE9C0C061B98BC002AE79E /* MTAudioBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAudioBuffer.h; sourceTree = "<group>"; };
@@ -130,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A5AA2D216175887007693E9 /* Accelerate.framework in Frameworks */,
+				3D57783C23F2E72D00B8CA44 /* Accelerate.framework in Frameworks */,
 				4C6CB3F6054DF62C0017AA37 /* CoreAudio.framework in Frameworks */,
 				4C6CB3F7054DF62C0017AA37 /* Foundation.framework in Frameworks */,
 			);
@@ -158,6 +150,7 @@
 				4C59E4EA056DC7AA00D501EC /* Info.plist */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				3D57783A23F2E72D00B8CA44 /* Frameworks */,
 			);
 			name = MTCoreAudio;
 			sourceTree = "<group>";
@@ -228,6 +221,14 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
+		3D57783A23F2E72D00B8CA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D57783B23F2E72D00B8CA44 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EEE71E6901E7DCE300543B42 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,9 +279,7 @@
 				4C6CB3EB054DF62C0017AA37 /* Resources */,
 				4C6CB3EE054DF62C0017AA37 /* Sources */,
 				4C6CB3F5054DF62C0017AA37 /* Frameworks */,
-				4C6CB3F9054DF62C0017AA37 /* Rez */,
-				4C6CB3FA054DF62C0017AA37 /* CopyFiles */,
-				4C6CB400054DF62C0017AA37 /* CopyFiles */,
+				4C6CB3FA054DF62C0017AA37 /* Copy Documentation Files */,
 			);
 			buildRules = (
 			);
@@ -297,12 +296,16 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+			};
 			buildConfigurationList = 4C36FF9908595074003D8A10 /* Build configuration list for PBXProject "MTCoreAudio" */;
 			compatibilityVersion = "Xcode 2.4";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* MTCoreAudio */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -321,21 +324,12 @@
 			files = (
 				4C6CB3EC054DF62C0017AA37 /* InfoPlist.strings in Resources */,
 				4C6CB3ED054DF62C0017AA37 /* Release Notes.txt in Resources */,
+				3D09DE7523F2EE1F00358A3F /* License.txt in Resources */,
 				4CB5AFA3056D9DEE00054BE0 /* StreamDescription.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXRezBuildPhase section */
-		4C6CB3F9054DF62C0017AA37 /* Rez */ = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C6CB3EE054DF62C0017AA37 /* Sources */ = {
@@ -360,7 +354,7 @@
 		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C1667FE841158C02AAC07 /* English */,
+				3D57781B23F2E48200B8CA44 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -368,7 +362,7 @@
 		4CB5AFA1056D9DEE00054BE0 /* StreamDescription.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4CB5AF9C056D9DE300054BE0 /* English */,
+				3D57781C23F2E48200B8CA44 /* en */,
 			);
 			name = StreamDescription.strings;
 			sourceTree = "<group>";
@@ -379,100 +373,59 @@
 		4C36FF9608595074003D8A10 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
-				COPY_PHASE_STRIP = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "";
-				FRAMEWORK_VERSION = B;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				FRAMEWORK_VERSION = A;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				OPTIMIZATION_CFLAGS = "-O0";
-				OTHER_LDFLAGS = (
-					"-seg1addr",
-					0xB0000000,
-				);
-				PREBINDING = NO;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armory.zenomt.MTCoreAudio;
 				PRODUCT_NAME = MTCoreAudio;
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SKIP_INSTALL = YES;
-				WARNING_CFLAGS = "-Wmost";
 				WRAPPER_EXTENSION = framework;
-				ZERO_LINK = YES;
 			};
 			name = Development;
 		};
 		4C36FF9708595074003D8A10 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
-				COPY_PHASE_STRIP = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "";
-				FRAMEWORK_VERSION = B;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				FRAMEWORK_VERSION = A;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = (
-					"-seg1addr",
-					0xB0000000,
-				);
-				PREBINDING = NO;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armory.zenomt.MTCoreAudio;
 				PRODUCT_NAME = MTCoreAudio;
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SKIP_INSTALL = YES;
-				WARNING_CFLAGS = "-Wmost";
 				WRAPPER_EXTENSION = framework;
-				ZERO_LINK = NO;
 			};
 			name = Deployment;
 		};
 		4C36FF9808595074003D8A10 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "";
-				FRAMEWORK_VERSION = B;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				FRAMEWORK_VERSION = A;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = (
-					"-seg1addr",
-					0xB0000000,
-				);
-				PREBINDING = NO;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armory.zenomt.MTCoreAudio;
 				PRODUCT_NAME = MTCoreAudio;
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SKIP_INSTALL = YES;
-				WARNING_CFLAGS = "-Wmost";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Default;
@@ -480,9 +433,35 @@
 		4C36FF9A08595074003D8A10 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Development;
@@ -490,10 +469,34 @@
 		4C36FF9B08595074003D8A10 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Deployment;
@@ -501,9 +504,33 @@
 		4C36FF9C08595074003D8A10 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Default;

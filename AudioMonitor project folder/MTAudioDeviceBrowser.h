@@ -18,7 +18,7 @@
 	id physicalFormatMenu;
 	id volumeSliderMatrix;
 	id volumeLabelMatrix;
-	id delegate;
+	__weak id delegate;
 	
 	bool initted;
 	bool hasMasterVolumeSlider;

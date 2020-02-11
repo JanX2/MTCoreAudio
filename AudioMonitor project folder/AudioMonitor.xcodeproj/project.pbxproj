@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D57783623F2E66B00B8CA44 /* MTCoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57782523F2E5BE00B8CA44 /* MTCoreAudio.framework */; };
+		3D57783723F2E6ED00B8CA44 /* MTCoreAudio.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57782523F2E5BE00B8CA44 /* MTCoreAudio.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D57783E23F2E74E00B8CA44 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D57781A23F2E42900B8CA44 /* Accelerate.framework */; };
+		3DB1A05023F2F11300A389D4 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE8358D8034D3FB200543B42 /* License.txt */; };
 		4C39F9C40641FA85006C68FB /* MTConversionBufferProto.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C39F9C20641FA85006C68FB /* MTConversionBufferProto.h */; };
 		4C8B34D0063898B80007DEFD /* MTVarispeedConversionBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8B34CE063898B80007DEFD /* MTVarispeedConversionBuffer.h */; };
 		4C8B34D1063898B80007DEFD /* MTVarispeedConversionBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B34CF063898B80007DEFD /* MTVarispeedConversionBuffer.m */; };
 		4C8B353A0638C4650007DEFD /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8B35390638C4650007DEFD /* AudioUnit.framework */; };
-		4CA1F69B0CDE537D00BBD4BF /* MTCoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA1F69A0CDE537D00BBD4BF /* MTCoreAudio.framework */; };
-		4CA1F6B50CDE538B00BBD4BF /* MTCoreAudio.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CA1F69A0CDE537D00BBD4BF /* MTCoreAudio.framework */; };
 		4CFCE75C0569CAB500869C79 /* AudioMonitorDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A37F4AEFDCFA73011CA2CEA /* AudioMonitorDocument.h */; };
 		4CFCE75D0569CAB500869C79 /* MTAudioDeviceBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8358D4034D3F2900543B42 /* MTAudioDeviceBrowser.h */; };
 		4CFCE75E0569CAB500869C79 /* MTConversionBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1CB35804BCE3ED00543B42 /* MTConversionBuffer.h */; };
@@ -25,43 +27,51 @@
 		4CFCE7670569CAB500869C79 /* MTConversionBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CB35904BCE3ED00543B42 /* MTConversionBuffer.m */; };
 		4CFCE7690569CAB500869C79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		4CFCE76B0569CAB500869C79 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1CB35D04BCF11300543B42 /* AudioToolbox.framework */; };
-		4CFCE76F0569CAB500869C79 /* License.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE8358D8034D3FB200543B42 /* License.txt */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3D57782423F2E5BE00B8CA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D57782023F2E5BE00B8CA44 /* MTCoreAudio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C6CB404054DF62C0017AA37;
+			remoteInfo = MTCoreAudio;
+		};
+		3D57783423F2E66500B8CA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D57782023F2E5BE00B8CA44 /* MTCoreAudio.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6CB3E0054DF62C0017AA37;
+			remoteInfo = MTCoreAudio;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		4CA053DE0CDD2B2D007F0782 /* CopyFiles */ = {
+		4CA053DE0CDD2B2D007F0782 /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4CA1F6B50CDE538B00BBD4BF /* MTCoreAudio.framework in CopyFiles */,
+				3D57783723F2E6ED00B8CA44 /* MTCoreAudio.framework in Copy Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CFCE76E0569CAB500869C79 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 1;
-			files = (
-				4CFCE76F0569CAB500869C79 /* License.txt in CopyFiles */,
-			);
+			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		2A37F4ACFDCFA73011CA2CEA /* AudioMonitorDocument.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AudioMonitorDocument.m; sourceTree = "<group>"; };
 		2A37F4AEFDCFA73011CA2CEA /* AudioMonitorDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AudioMonitorDocument.h; sourceTree = "<group>"; };
 		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A37F4B5FDCFA73011CA2CEA /* AudioMonitorDocument.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = AudioMonitorDocument.nib; path = English.lproj/AudioMonitorDocument.nib; sourceTree = "<group>"; };
-		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		3D57781A23F2E42900B8CA44 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3D57781D23F2E59D00B8CA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		3D57781E23F2E59E00B8CA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/AudioMonitorDocument.nib; sourceTree = "<group>"; };
+		3D57781F23F2E59F00B8CA44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D57782023F2E5BE00B8CA44 /* MTCoreAudio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MTCoreAudio.xcodeproj; path = "../MTCoreAudio project folder/MTCoreAudio.xcodeproj"; sourceTree = "<group>"; };
 		4C1CB35804BCE3ED00543B42 /* MTConversionBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTConversionBuffer.h; sourceTree = "<group>"; };
 		4C1CB35904BCE3ED00543B42 /* MTConversionBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTConversionBuffer.m; sourceTree = "<group>"; };
 		4C1CB35D04BCF11300543B42 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
@@ -69,7 +79,6 @@
 		4C8B34CE063898B80007DEFD /* MTVarispeedConversionBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTVarispeedConversionBuffer.h; sourceTree = "<group>"; };
 		4C8B34CF063898B80007DEFD /* MTVarispeedConversionBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTVarispeedConversionBuffer.m; sourceTree = "<group>"; };
 		4C8B35390638C4650007DEFD /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
-		4CA1F69A0CDE537D00BBD4BF /* MTCoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MTCoreAudio.framework; path = ../MTCoreAudio.framework; sourceTree = SOURCE_ROOT; };
 		4CE7E60B061EC145003586D5 /* vecLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vecLib.framework; path = /System/Library/Frameworks/vecLib.framework; sourceTree = "<absolute>"; };
 		4CFCE7710569CAB500869C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CFCE7720569CAB500869C79 /* AudioMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,10 +92,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D57783E23F2E74E00B8CA44 /* Accelerate.framework in Frameworks */,
 				4CFCE7690569CAB500869C79 /* Cocoa.framework in Frameworks */,
 				4CFCE76B0569CAB500869C79 /* AudioToolbox.framework in Frameworks */,
 				4C8B353A0638C4650007DEFD /* AudioUnit.framework in Frameworks */,
-				4CA1F69B0CDE537D00BBD4BF /* MTCoreAudio.framework in Frameworks */,
+				3D57783623F2E66B00B8CA44 /* MTCoreAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +106,7 @@
 		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D57782023F2E5BE00B8CA44 /* MTCoreAudio.xcodeproj */,
 				3D57781A23F2E42900B8CA44 /* Accelerate.framework */,
 				4C8B35390638C4650007DEFD /* AudioUnit.framework */,
 				4CE7E60B061EC145003586D5 /* vecLib.framework */,
@@ -173,11 +184,18 @@
 		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4CA1F69A0CDE537D00BBD4BF /* MTCoreAudio.framework */,
 				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
 				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D57782123F2E5BE00B8CA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D57782523F2E5BE00B8CA44 /* MTCoreAudio.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,12 +224,12 @@
 				4CFCE75F0569CAB500869C79 /* Resources */,
 				4CFCE7630569CAB500869C79 /* Sources */,
 				4CFCE7680569CAB500869C79 /* Frameworks */,
-				4CFCE76E0569CAB500869C79 /* CopyFiles */,
-				4CA053DE0CDD2B2D007F0782 /* CopyFiles */,
+				4CA053DE0CDD2B2D007F0782 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3D57783523F2E66500B8CA44 /* PBXTargetDependency */,
 			);
 			name = AudioMonitor;
 			productInstallPath = "$(HOME)/Applications";
@@ -225,23 +243,40 @@
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 1140;
 			};
 			buildConfigurationList = 4C5BDBD80CDD296D00BE44EC /* Build configuration list for PBXProject "AudioMonitor" */;
 			compatibilityVersion = "Xcode 2.4";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* AudioMonitor */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3D57782123F2E5BE00B8CA44 /* Products */;
+					ProjectRef = 3D57782023F2E5BE00B8CA44 /* MTCoreAudio.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4CFCE75A0569CAB500869C79 /* AudioMonitor */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3D57782523F2E5BE00B8CA44 /* MTCoreAudio.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MTCoreAudio.framework;
+			remoteRef = 3D57782423F2E5BE00B8CA44 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4CFCE75F0569CAB500869C79 /* Resources */ = {
@@ -251,6 +286,7 @@
 				4CFCE7600569CAB500869C79 /* MainMenu.nib in Resources */,
 				4CFCE7610569CAB500869C79 /* AudioMonitorDocument.nib in Resources */,
 				4CFCE7620569CAB500869C79 /* InfoPlist.strings in Resources */,
+				3DB1A05023F2F11300A389D4 /* License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,11 +307,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3D57783523F2E66500B8CA44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTCoreAudio;
+			targetProxy = 3D57783423F2E66500B8CA44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C1660FE840EACC02AAC07 /* English */,
+				3D57781F23F2E59F00B8CA44 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -283,7 +327,7 @@
 		2A37F4B4FDCFA73011CA2CEA /* AudioMonitorDocument.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A37F4B5FDCFA73011CA2CEA /* AudioMonitorDocument.nib */,
+				3D57781E23F2E59E00B8CA44 /* Base */,
 			);
 			name = AudioMonitorDocument.nib;
 			sourceTree = "<group>";
@@ -291,7 +335,7 @@
 		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A37F4B7FDCFA73011CA2CEA /* English */,
+				3D57781D23F2E59D00B8CA44 /* Base */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
@@ -302,14 +346,13 @@
 		4C5BDBD50CDD296D00BE44EC /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/..\"";
-				GCC_GENERATE_PROFILING_CODE = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST)) @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MARKETING_VERSION = 0.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armory.zenomt.AudioMonitor;
 				PRODUCT_NAME = AudioMonitor;
 				WRAPPER_EXTENSION = app;
 			};
@@ -318,13 +361,13 @@
 		4C5BDBD60CDD296D00BE44EC /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/..\"";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST)) @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MARKETING_VERSION = 0.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armory.zenomt.AudioMonitor;
 				PRODUCT_NAME = AudioMonitor;
 				WRAPPER_EXTENSION = app;
 			};
@@ -333,13 +376,13 @@
 		4C5BDBD70CDD296D00BE44EC /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/..\"";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST)) @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MARKETING_VERSION = 0.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armory.zenomt.AudioMonitor;
 				PRODUCT_NAME = AudioMonitor;
 				WRAPPER_EXTENSION = app;
 			};
@@ -348,9 +391,35 @@
 		4C5BDBD90CDD296D00BE44EC /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				PREBINDING = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
 			};
@@ -359,8 +428,32 @@
 		4C5BDBDA0CDD296D00BE44EC /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				PREBINDING = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = macosx;
 			};
 			name = Deployment;
@@ -368,8 +461,32 @@
 		4C5BDBDB0CDD296D00BE44EC /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				PREBINDING = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = macosx;
 			};
 			name = Default;

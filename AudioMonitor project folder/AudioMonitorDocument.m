@@ -108,25 +108,27 @@ static double _db_to_scalar ( Float32 decibels )
 
 - (void) playthroughButton:(id)sender
 {
-	if ([sender state])
-	{
-		[inputDevice  setDevicePaused:YES];  // lock out IO cycles while we change a resource they use
-		[outputDevice setDevicePaused:YES];
-		[self allocNewConverter];
-		[outputDevice setDevicePaused:NO];
-		[inputDevice  setDevicePaused:NO];
-		
-		if ( ! ( [outputDevice deviceStart] && [inputDevice deviceStart] ))
+	dispatch_async(dispatch_get_main_queue(), ^{
+		if ([sender state])
 		{
-			[sender setState:FALSE];
-			[self playthroughButton:sender];
+			[inputDevice  setDevicePaused:YES];  // lock out IO cycles while we change a resource they use
+			[outputDevice setDevicePaused:YES];
+			[self allocNewConverter];
+			[outputDevice setDevicePaused:NO];
+			[inputDevice  setDevicePaused:NO];
+			
+			if ( ! ( [outputDevice deviceStart] && [inputDevice deviceStart] ))
+			{
+				[sender setState:FALSE];
+				[self playthroughButton:sender];
+			}
 		}
-	}
-	else
-	{
-		[inputDevice  deviceStop];
-		[outputDevice deviceStop];
-	}
+		else
+		{
+			[inputDevice  deviceStop];
+			[outputDevice deviceStop];
+		}
+	});
 }
 
 - (void) setAdjustVolume:(id)sender

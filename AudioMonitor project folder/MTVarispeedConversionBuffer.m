@@ -320,7 +320,7 @@ static OSStatus _renderCallback (
 		for ( chan = 0; chan < outputChannels; chan++ )
 		{
 			samples = outputBufferList->mBuffers[chan].mData;
-			vsmul ( samples, 1, &gainArray[chan], samples, 1, framesToRead );
+			vDSP_vsmul ( samples, 1, &gainArray[chan], samples, 1, framesToRead );
 		}
 		MTAudioBufferListCopy ( outputBufferList, 0, dst, offset, framesToRead );
 	}
