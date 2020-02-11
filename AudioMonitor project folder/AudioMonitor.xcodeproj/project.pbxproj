@@ -26,7 +26,6 @@
 		4CFCE7690569CAB500869C79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		4CFCE76B0569CAB500869C79 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1CB35D04BCF11300543B42 /* AudioToolbox.framework */; };
 		4CFCE76F0569CAB500869C79 /* License.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE8358D8034D3FB200543B42 /* License.txt */; };
-		5A5AA2CC1617582C007693E9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5AA2CB1617582C007693E9 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +61,7 @@
 		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3D57781A23F2E42900B8CA44 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		4C1CB35804BCE3ED00543B42 /* MTConversionBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTConversionBuffer.h; sourceTree = "<group>"; };
 		4C1CB35904BCE3ED00543B42 /* MTConversionBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTConversionBuffer.m; sourceTree = "<group>"; };
 		4C1CB35D04BCF11300543B42 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
@@ -73,7 +73,6 @@
 		4CE7E60B061EC145003586D5 /* vecLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vecLib.framework; path = /System/Library/Frameworks/vecLib.framework; sourceTree = "<absolute>"; };
 		4CFCE7710569CAB500869C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CFCE7720569CAB500869C79 /* AudioMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A5AA2CB1617582C007693E9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		EE8358D4034D3F2900543B42 /* MTAudioDeviceBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAudioDeviceBrowser.h; sourceTree = "<group>"; };
 		EE8358D5034D3F2900543B42 /* MTAudioDeviceBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAudioDeviceBrowser.m; sourceTree = "<group>"; };
 		EE8358D8034D3FB200543B42 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
@@ -84,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A5AA2CC1617582C007693E9 /* Accelerate.framework in Frameworks */,
 				4CFCE7690569CAB500869C79 /* Cocoa.framework in Frameworks */,
 				4CFCE76B0569CAB500869C79 /* AudioToolbox.framework in Frameworks */,
 				4C8B353A0638C4650007DEFD /* AudioUnit.framework in Frameworks */,
@@ -98,6 +96,7 @@
 		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D57781A23F2E42900B8CA44 /* Accelerate.framework */,
 				4C8B35390638C4650007DEFD /* AudioUnit.framework */,
 				4CE7E60B061EC145003586D5 /* vecLib.framework */,
 				4C1CB35D04BCF11300543B42 /* AudioToolbox.framework */,
@@ -126,7 +125,6 @@
 		2A37F4AAFDCFA73011CA2CEA /* AudioMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				5A5AA2CB1617582C007693E9 /* Accelerate.framework */,
 				EE8358D8034D3FB200543B42 /* License.txt */,
 				2A37F4ABFDCFA73011CA2CEA /* Classes */,
 				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
@@ -226,11 +224,14 @@
 /* Begin PBXProject section */
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 4C5BDBD80CDD296D00BE44EC /* Build configuration list for PBXProject "AudioMonitor" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* AudioMonitor */;
@@ -347,8 +348,7 @@
 		4C5BDBD90CDD296D00BE44EC /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				PREBINDING = NO;
 				SDKROOT = macosx;
@@ -359,8 +359,7 @@
 		4C5BDBDA0CDD296D00BE44EC /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				PREBINDING = NO;
 				SDKROOT = macosx;
 			};
@@ -369,8 +368,7 @@
 		4C5BDBDB0CDD296D00BE44EC /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				PREBINDING = NO;
 				SDKROOT = macosx;
 			};
